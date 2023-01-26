@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "togglesprint",
+  "version": "${version}",
+  "name": "ToggleSprint",
+  "description": "",
+  "authors": [
+    "rayxu6"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/togglesprint/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+    ],
+    "main": [
+      "cn.rayxu6.togglesprint.Togglesprint"
+    ]
+  },
+  "mixins": [
+    "togglesprint.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.12.12",
+    "minecraft": "1.14.4"
+  }
+}

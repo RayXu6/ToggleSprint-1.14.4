@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "cn.rayxu6.togglesprint.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "KeyBindingMixin"
+  ],
+  "client": [
+    "ClientPlayerEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
